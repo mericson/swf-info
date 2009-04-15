@@ -9,8 +9,7 @@ begin
     gem.email = "mericson@ericson.net"
     gem.homepage = "http://github.com/mericson/swf-info"
     gem.authors = ["Matthew Ericson"]
-    gem.add_dependency 'bindata'	
-    
+
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 rescue LoadError
