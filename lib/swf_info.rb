@@ -13,7 +13,7 @@
       
       ##puts "Opening #{file}"
       
-      open file do |f|
+      open( file, "rb" ) do |f|
         
         sig = Sig.read( f )
         ##puts "Compressed flag is #{sig.compressed_flag}"
